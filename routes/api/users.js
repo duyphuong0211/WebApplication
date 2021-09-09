@@ -4,7 +4,7 @@ const gravatar = require('gravatar');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const config = require('config');
-const { check, validationResult } = require('express-validator/check');
+const { check, validationResult } = require('express-validator');
 
 const User = require('../../models/User');
 
@@ -15,8 +15,7 @@ router.post(
     '/',
     [
         check('name', 'Name is required')
-            .not()
-            .isEmpty(),
+            .notEmpty(),
         check('email', 'Please include a valid email').isEmail(),
         check(
             'password',
