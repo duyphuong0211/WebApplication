@@ -19,4 +19,4 @@ Main idea of this project is : Imagine Im a CTO hahah, and i want to manage my t
 hmmm, i want to known exactly which fields are my members strongest ? like A: like java and he strongest about spring, hibernate,.... form that, i can direct my member to work with fileds they like, and more than that, i want to create a internal social platform for comunicate in tech team.
 
 
-Hahah above just my idea, and the first one i want try to apply some basic feature to pass the course, and if i have enough time i wil try to extend this project become a social platform.
+Hahah above just an idea in paper, and the first one i want try to apply some basic feature to pass the course, and if i have enough time i wil try to extend this project become a social platform.
