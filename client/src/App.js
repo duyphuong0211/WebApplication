@@ -41,8 +41,13 @@ const App = () => {
                             />
                             <PrivateRoute
                                 exact
-                                path='/edit-profile'
-                                component={EditProfile}
+                                path='/add-experience'
+                                component={AddExperience}
+                            />
+                            <PrivateRoute
+                                exact
+                                path='/add-education'
+                                component={AddEducation}
                             />
                         </Switch>
                     </section>
