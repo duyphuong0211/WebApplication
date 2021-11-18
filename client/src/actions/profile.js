@@ -11,8 +11,6 @@ import {
     GET_REPOS
 } from './types';
 
-import { GET_PROFILE, PROFILE_ERROR, UPDATE_PROFILE } from './types';
-
 // Get current users profile
 export const getCurrentProfile = () => async dispatch => {
     try {
