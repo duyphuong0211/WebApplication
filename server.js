@@ -34,22 +34,4 @@ if (process.env.NODE_ENV === 'production') {
 
 const PORT = process.env.PORT || 5000;
 
-const swaggerOptions = {
-        swaggerDefinition: {
-            info: {
-                title: "API",
-                description: "API Information",
-                contact: {
-                    name: "Duy Phuong"
-                },
-                server: ["http://localhost:5000"]
-            }
-        },
-    apis: ["app.js"]
-};
-
-const swaggerDocs = swaggerJsDoc(swaggerOptions);
-console.log(swaggerDocs);
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
-
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
