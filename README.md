@@ -1,22 +1,39 @@
-# WebApplication
+# DELO
+DELO is mainly designed to share the ideas, skills and knowledge to wide developers around the world. New Bees can easily interact with the experienced developers and they can tune their skills. Also, Developers can expose their sharing and teaching skills.
 
+## Functionality
 
-Acctually, im not good about MEARN stack, i just contact with them about one month to prepare for Web design subject.
+-   Sign up and sign in
+    -   Publicly available:
+        -   List of all registered developers
+        -   Profiles of each developer
+    -   Privately available:
+        -   Personal dashboard (experiences and education)
+        -   Edit profile view
+        -   Adding experience view
+        -   Adding education view
+        -   Deleting an account
+        -   Posts
+            -   Possibility to add and delete post
+            -   Possibility to like and dislike post
+            -   Possibility to comment/discuss post
+            -   
+## Main Technologies
 
+### Client Side
+- [x] **[React](https://github.com/facebook/react)**
+- [x] **[Redux](https://github.com/reactjs/redux)**
+- [x] **[Twitter Bootstap 4](https://github.com/twbs/bootstrap/tree/v4-dev)**
+- [x] **[React-Router-DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+#### Libraries used in Client-side
+- [x] **[axios](https://github.com/axios/axios)**
+- [x] **[classnames](https://github.com/JedWatson/classnames)**
+- [x] **[react-moment](https://github.com/headzoo/react-moment)**
+- [x] **[react-redux](https://github.com/reduxjs/react-redux)**
+- [x] **[redux-thunk](https://github.com/reduxjs/redux-thunk)**
+- [x] **[validator](https://github.com/chriso/validator.js)**
+### Server Side
+- [x] **[Node.js / Express](https://github.com/expressjs/express)**
+- [x] **[MongoDB](https://github.com/mongodb/mongo)**
+- [x] **[JWT](https://github.com/auth0/node-jsonwebtoken)**
 
-This project is shown some knowlegde about MEARN stack like CURD bussiness processing.
-
-
-In This project I'm try to apply some feature like: React, Redux, Node, Express & MongoDB, JWT authentication, React Hooks, Async/Await & modern practices, Deploy to Heroku,  extensive backend API with Express, Redux for state management,...
-
-
-All of them i just follow the concept on YouTube and try apply them to describe my idea.
-
-
-Main idea of this project is : Imagine Im a CTO hahah, and i want to manage my team member, just some basic information of them like : profies, experiences,...  and Why ?
-
-
-hmmm, i want to known exactly which fields are my members strongest ? like A: like java and he strongest about spring, hibernate,.... form that, i can direct my member to work with fileds they like, and more than that, i want to create a internal social platform for comunicate in tech team.
-
-
-Hahah above just an idea in paper, and the first one i want try to apply some basic feature to pass the course, and if i have enough time i wil try to extend this project become a social platform.
